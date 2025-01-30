@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- This is the head tag for meta,title and here we also use link(for css) and script(for js).-->
+
+<head>
+     <!--Metatags for metadata or additional information about the homepage.-->
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Homepage for coursework">
+     <meta name="author" content="Bijal Adhikari">
+     <meta name="keywords" content="Html, CSS, JS">
+
+     <!-- This is the title of the homepage. -->
+    <title>Islington Watches</title>
+
+    <style>
+        /* This is the Internal CSS */
+        footer{
+        background-color: #333;
+        color: burlywood;
+        text-align: center;
+        padding: 20px 0;
+        bottom: 0;
+        width: 100%;
+        }
+        
+    </style>
+    <!-- This is for External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- This is for External javascript -->
+    <script src="js/script.js" defer></script>
+
+</head>
+<!-- This is the body tag for header,main footer and other semantic elements-->
+<body>
+    <!-- Inline CSS is used here -->
+    <header style="background-color: #333; color: burlywood; text-align: center; padding: 20px;">
+        <h1>Islington Watches</h1>
+        <!-- This is the navigation bar where we put the links of Home page,Products page,Blog page,Research page and About us page. -->
+        <nav>
+           
+           
+                <!-- Anchor tags for hyperlinks,It is used to link one page to another page -->
+                 
+                <a href="./Home.html">Home</a>
+        
+            
+                <a href="./html/products.html">Products</a>
+            
+         
+                <a href="./html/blog.html">Blog</a>
+          
+        
+                <a href="./html/research2.html">Research</a>
+          
+               
+                <a href="./html/about.html">About Us</a>
+           
+            
+        
+        </nav>
+    </header>
+<!-- This is the main section of the body where we have put the image and description of the Watches  -->
+    <main>
+        <section id="Welcome">
+            <h2>Welcome to Islington Watches.</h2>
+            <p>We sell top quality watches.</p>
+        </section>
+
+        <section id="featured-collections">
+            <br>
+            <h2>Featured Collections</h2>
+              
+            <br>
+            
+            <div class="collection-flex">
+                <div class="collection-item">
+                    <img src="./images/Classic.jpg" width="150" alt="Classic Metallic Wrist Watches">
+                    <h3>Classic Collection</h3>
+                    <p><a href="products.html"><u>Buy our Classic watches.</u></a></p>
+                </div>
+                <div class="collection-item">
+                    <img src="./images/Analog.jpg" width="150" alt="Analog Watches">
+                    <h3>Analog Collection</h3>
+                    <p><a href="products.html"><u>Buy our Analog watches.</u></a></p>
+                </div>
+                <div class="collection-item">
+                    <img src="./images/Luxury.jpg" width="150" alt="Luxury Watches">
+                    <h3>Luxury Collection</h3>
+                    <p><a href="products.html"><u>Buy our Luxury watches.</u></a></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+     <h2>Subscribe to us:-</h2>
+     <!-- This is a form  where we use javascript to validate it and -->
+    <form name="validation" id="formm" onsubmit="validateForm()">
+        <div>
+      <p> First Name: <br> <input type="text" name="fName"> </p> 
+        </div>
+        <div>
+       <p> Last Name: <br><input type="text" name="lName"> </p> 
+        </div>
+        <div>   
+      <p>  Gender: <br><input type="radio" name="gender"> Male <input type="radio" name="gender">Female <input type="radio" name="gender" checked >Others </p> 
+        </div>
+        <div>
+       <p> Email: <br> <input type="email" name="email" ></p> 
+        </div>
+        <div>
+            <input type="submit" value="Subscribe">
+        </div>
+
+    </form>
+    
+<!-- Footer is the bottom part of our website's homepage. -->
+    <footer>
+        <!-- In footer we have used the "&copy" html entity which is the copyright mark -->
+        <p>&copy; 2025 Islington Watches. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!-- HTML stands for 
+Hypertext markup language -->
+<!--                                                     This is the end of HTML                                                     -->

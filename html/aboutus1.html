@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+       
+       /* This is the Internal CSS */
+
+        *{
+            margin:0%;
+        }
+        nav ul {
+        list-style-type: none;
+        text-align: right; 
+        }
+
+        nav ul li {
+        
+        padding: 3px;
+        margin-right: 2px;
+        background-color:gold;
+        margin-bottom: 1px;
+        }   
+
+        nav ul li a {
+        color: black;
+        text-decoration: none;
+        
+        }
+
+        nav {
+                text-align: center;
+                background-color: #444;
+                padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            background-color: burlywood;
+            color: #333;
+        }
+        
+        header {
+            background-color: #333;
+            color: burlywood;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .profile-card-link{
+          text-decoration: none; 
+          color: black;  
+
+        }
+        .profile-card {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        }
+
+        .profile-card:hover .profile-image {
+            transform: scale(1.05);
+        }
+
+        .profile-card:hover .label {
+            color: #2196F3;
+        }
+
+        .profile-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .profile-table td {
+            padding: 15px;
+            vertical-align: top;
+        }
+        
+        .profile-image {
+            width: 200px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .info-table td {
+            padding: 8px 0;
+        }
+        
+        .label {
+            font-weight: bold;
+            width: 100px;
+            color: #333;
+        }
+        
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+
+        .footer {
+            background-color: #333;
+            color: burlywood;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer a {
+            color: burlywood;
+            text-decoration: none;
+        }       
+    </style>
+</head>
+
+<header>
+        <h1>Islington Watches</h1>
+        <p>A Crown for Every Achievement</p>
+        <!-- This is the navigation bar where we put the links of Home page,Products page,Blog page,Research page and About us page. -->
+        <nav>
+          <!-- Anchor tags for hyperlinks,It is used to link one page to another page -->
+          <a href="../Home.html">Home</a> 
+          <a href="./products.html">Products</a>
+          <a href="./blog.html">Blog</a>
+          <a href="./research2.html">Research</a>
+          <a href="./about.html">About Us</a>
+        </nav>
+    </header>
+
+<main style=" margin-top: 10px;">
+<body>
+    <div class="profile-card">
+        <a href="./CV/aarajcv.html" class="profile-card-link">
+        <table class="profile-table">
+            <tr>
+                <td width="220">
+                    <img src="../images/Aaraj.jpeg" alt="Profile Image" class="profile-image">
+                </td>
+                <td>
+                    <table class="info-table">
+                        <tr>
+                            <td class="label">Name:</td>
+                            <td>Aaraj Shrestha</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Role:</td>
+                            <td>Project Leader</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Contact no:</td>
+                            <td>9841446180</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Email:</td>
+                            <td>aarajshrescybu@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Skills:</td>
+                            <td>
+                                <ul>
+                                    
+                                    <li> HTML, CSS, Javascript</li>
+                                </ul>
+                            </td>
+                        </tr>
+                       
+                    </table>
+                </td>
+            </tr>
+        </table>
+        </a>
+    </div>
+
+
+
+
+    <div class="profile-card">
+        <a href="./CV/piyushcv.html" class="profile-card-link">
+        <table class="profile-table">
+            <tr>
+                <td width="220">
+                    <img src="../images/piyush.jpg" alt="Profile Image" class="profile-image">
+                </td>
+                <td>
+                    <table class="info-table">
+                        <tr>
+                            <td class="label">Name:</td>
+                            <td>Piyush Yadav</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Role:</td>
+                            <td>Project Member</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Contact no:</td>
+                            <td>9844676567</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Email:</td>
+                            <td>piyushyadav@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Skills:</td>
+                            <td>
+                                <ul>
+                                   
+                                    <li>HTML, CSS , Javascript</li>
+                                </ul>
+                            </td>
+                        </tr>
+                       
+                    </table>
+                </td>
+            </tr>
+        </table>
+        </a>
+    </div>
+
+
+    <div class="profile-card">
+        <a href="./CV/aviyaancv.html" class="profile-card-link">
+        <table class="profile-table">
+            <tr>
+                <td width="220">
+                    <img src="../images/Aviyaan.jpg" alt="Profile Image" class="profile-image">
+                </td>
+                <td>
+                    <table class="info-table">
+                        <tr>
+                            <td class="label">Name:</td>
+                            <td>Aviyaan Shrestha</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Role:</td>
+                            <td>Project Member</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Contact no:</td>
+                            <td>9841477889</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Email:</td>
+                            <td>aviyan321@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Skills:</td>
+                            <td>
+                                <ul>
+                                    <li>HTML, CSS , Javascript</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">Certificate:</td>
+                            <td>
+                                <ul>
+                                    <li>Certified User Experience</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        </a>
+    </div>
+
+
+
+    <div class="profile-card">
+        <a href="./CV/srijalcv.html" class="profile-card-link">
+        <table class="profile-table">
+            <tr>
+                <td width="220">
+                    <img src="../images/Srijal.jpg" alt="Profile Image" class="profile-image">
+                </td>
+                <td>
+                    <table class="info-table">
+                        <tr>
+                            <td class="label">Name:</td>
+                            <td>Aaraj Shrestha</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Role:</td>
+                            <td>Project Leader</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Education:</td>
+                            <td>+2 cleared</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Email:</td>
+                            <td>aarajshrestha321@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Skills:</td>
+                            <td>
+                                <ul>
+                                    <li>Tools: balsamiq</li>
+                                    <li>User research</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">Certificate:</td>
+                            <td>
+                                <ul>
+                                    <li>Certified User Experience</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        </a>
+    </div>
+
+    <div class="profile-card">
+        <a href="./CV/bijalcv.html" class="profile-card-link">
+        <table class="profile-table">
+            <tr>
+                <td width="220">
+                    <img src="../images/Bijal.jpg" alt="Profile Image" class="profile-image">
+                </td>
+                <td>
+                    <table class="info-table">
+                        <tr>
+                            <td class="label">Name:</td>
+                            <td>Aaraj Shrestha</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Role:</td>
+                            <td>Project Leader</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Education:</td>
+                            <td>+2 cleared</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Email:</td>
+                            <td>aarajshrestha321@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Skills:</td>
+                            <td>
+                                <ul>
+                                    <li>Tools: balsamiq</li>
+                                    <li>User research</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">Certificate:</td>
+                            <td>
+                                <ul>
+                                    <li>Certified User Experience</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        </a>
+    </div>
+</body>
+</main>
+
+<footer style="text-align: center; background-color: #333; padding: 20px 0; color: burlywood;">
+    <!-- In footer we have used the "&copy" html entity which is the copyright mark -->
+    <p>&copy; 2025 Islington Watches. All rights reserved.</p>
+</footer>
+</html>

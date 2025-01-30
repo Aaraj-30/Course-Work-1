@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research page</title>
+    <link rel="stylesheet"  href="../css/style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 2000px;
+            margin: 0 auto;
+           
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -10px; /* Compensate for card padding */
+            margin-bottom: 40px;
+        }
+        .card-wrapper {
+            flex: 0 0 50%; /* Two cards per row */
+            padding: 10px;
+        }
+        
+        .card-link{
+            text-decoration: none;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+        .card:hover img {
+            transform: scale(1.05);
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+        .card:hover .card-content {
+            background-color: #f8f8f8;
+        }
+        .card-title {
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card-text {
+            color: #666;
+            line-height: 1.5;
+        }
+
+        
+        
+
+         header {
+            background-color: #333;
+            color: burlywood;
+            padding: 20px 0;
+            text-align: center;
+                }
+        nav {
+            text-align: center;
+            background-color: #444;
+                padding: 10px;
+             }
+
+        nav a {
+                    color: white;
+                    text-decoration: none;
+                    padding: 10px 20px;
+                    margin: 0 10px;
+                    font-size: 18px;
+              }
+
+        nav a:hover {
+                    background-color: burlywood;
+                    color: #333;
+                     }
+
+        nav ul {
+                    list-style-type: none;
+                     text-align: right; 
+                    }
+
+        nav ul li {
+    
+                    padding: 3px;
+                    margin-right: 2px;
+                    background-color:gold;
+                    margin-bottom: 1px;
+                    }
+
+        nav ul li a {
+                    color: black;
+                    text-decoration: none;
+            
+        }
+
+        .text{
+            text-align: center;
+            padding: 10px;
+            margin-bottom:50px ;
+            margin-top: auto;
+        }
+
+        .footer {
+            background-color: #333;
+            color: burlywood;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer a {
+            color: burlywood;
+            text-decoration: none;
+        }       
+
+
+    </style>
+</head>
+<body>
+    <header >
+        <h1>Islington Watches</h1>
+        <p>A Crown for Every Achievement</p>
+        <!-- This is the navigation bar where we put the links of Home page,Products page,Blog page,Research page and About us page. -->
+        <nav>
+          <!-- Anchor tags for hyperlinks,It is used to link one page to another page -->
+          <a href="../Home.html">Home</a> 
+          <a href="./products.html">Products</a>
+          <a href="./blog.html">Blog</a>
+          <a href="./research2.html">Research</a>
+          <a href="./aboutus1.html">About Us</a>
+        </nav>
+    </header>
+
+    <main style=" margin-top: 10px;">
+        <div class="container">
+    <div style="height: auto;">
+        <h1 class="text">User Interface</h1>
+    </div>
+  
+        <div class="row">
+            <div class="card-wrapper">
+                <a href="https://www.ebay.com/" class="card-link">
+                
+            <div class="card">
+                <img src="../images/Capture.PNG" alt="Image 1">
+                <div class="card-content">
+                    <h2 class="card-title">References</h2>
+                    <p class="card-text">eBay offers an auction-based model for watches and has a large collection of both new and used products. However, the site isn’t as focused on creating a luxury shopping experience.</p>
+                </div>
+                </div>
+                </a>
+            </div>
+            <div class="card-wrapper">
+                <a href="http://127.0.0.1:5500/Development/Home.html" class="card-link">
+            <div class="card">
+                <img src="../images/image 3.PNG" alt="Image 2">
+                <div class="card-content">
+                    <h2 class="card-title">Unique Features</h2>
+                    <p class="card-text">Allow users to compare multiple watches side-by-side, showcasing differences in features like movement, water resistance, and strap material.</p>
+                </div>
+            </div>
+        </a>
+            </div>
+        </div>
+        <div style="height: auto;">
+            <h1 class="text">Product Display and Imagery</h1>
+        </div>
+        <div class="row">
+            <div class="card-wrapper">
+                <a href="https://www.shopify.com/" class="card-link">
+            <div class="card">
+                <img src="../images/Capture1.PNG" alt="Image 3">
+                <div class="card-content">
+                    <h2 class="card-title">References</h2>
+                    <p class="card-text">Shopify-Based Watch Stores: Many utilize high-resolution 360-degree product views.</p>
+                </div>
+            </div>
+        </a>
+            </div>
+            <div class="card-wrapper">
+                <a href="http://127.0.0.1:5500/Development/html/products.html" class="card-link">
+            <div class="card">
+                <img src="../images/image 1.PNG" alt="Image 4">
+                <div class="card-content">
+                    <h2 class="card-title">Unique Features</h2>
+                    <p class="card-text">Interactive Zoom: High-definition zoom with hotspots explaining specific design details like engravings or mechanisms.</p>
+                </div>
+            </div>
+            </div>
+        </a>
+        </div>
+
+        <div style="height: auto;">
+            <h1 class="text">Blog page</h1>
+        </div>
+
+        <div class="row">
+            <div class="card-wrapper">
+                <a href="https://www.fossil.com/en-us/product-care.html" class="card-link">
+            <div class="card">
+                <img src="../images/Capture3.PNG" alt="Image 3">
+                <div class="card-content">
+                    <h2 class="card-title">References</h2>
+                    <p class="card-text"> Fossil: Fossil includes “How-To” content (e.g., "Caring for Your Leather Watch") in their blog, which strengthens customer trust.</p>
+                </div>
+            </div>
+        </a>
+            </div>
+            <div class="card-wrapper">
+                <a href="http://127.0.0.1:5500/Development/html/blog.html" class="card-link">
+            <div class="card">
+                <img src="../images/image 2.PNG" alt="Image 4">
+                <div class="card-content">
+                    <h2 class="card-title">Unique Features</h2>
+                    <p class="card-text"> An opportunity to introduce an interactive quiz within the blog to help users find their ideal watch based on preferences.</p>
+                </div>
+            </div>
+            </div>
+        </a>
+        </div>
+
+        <div style="height: auto;">
+            <h1 class="text">Research page</h1>
+        </div>
+
+        <div class="row">
+            <div class="card-wrapper">
+                <a href="https://www.chrono24.com/info/faqs.htm" class="card-link">
+            <div class="card">
+                <img src="../images/Capture 6.PNG" alt="Image 3">
+                <div class="card-content">
+                    <h2 class="card-title">References</h2>
+                    <p class="card-text"> Chrono24: Chrono24 integrates research-oriented tools, such as a price trend graph for specific watch models, showcasing how values have changed over time.</p>
+                </div>
+            </div>
+            </a>
+            </div>
+            <div class="card-wrapper">
+                <a href="" class="card-link">
+                <div class="card">
+                <img src="../images/Capture5.PNG" alt="Image 4">
+                <div class="card-content">
+                    <h2 class="card-title">Unique Features</h2>
+                    <p class="card-text">Personalized Packaging: Let users choose gift packaging and include personalized notes for special occasions.</p>
+                </div>
+            </div>
+            </div>
+        </a>
+            
+        </div>
+
+        <div style="height: auto;">
+            <h1 class="text">About us page</h1>
+        </div>
+        <div class="row">
+            <div class="card-wrapper">
+                <a href="https://www.shopify.com/news/about-us" class="card-link">
+            <div class="card">
+                <img src="../images/Capture2.PNG" alt="Image 3">
+                <div class="card-content">
+                    <h2 class="card-title">References</h2>
+                    <p class="card-text">Shopify-Based Stores: Many Shopify-based stores emphasize storytelling on their "About Us" page, using high-quality imagery and founder narratives to establish an emotional connection with users.</p>
+                </div>
+            </div>
+        </a>
+            </div>
+            <div class="card-wrapper">
+                <a href="http://127.0.0.1:5500/Development/html/about.html" class="card-link">
+            <div class="card">
+                <img src="../images/image 2.PNG" alt="Image 4">
+                <div class="card-content">
+                    <h2 class="card-title">Unique Features</h2>
+                    <p class="card-text">Collectors' Hub: Create a space for collectors to share insights, trade rare watches, or discuss trends.</p>
+                </div>
+            </div>
+            </div>
+     </a>
+            
+        </div>
+    </div>
+</main>
+<footer style="text-align: center; background-color: #333; padding: 20px 0; color: burlywood;">
+    <!-- In footer we have used the "&copy" html entity which is the copyright mark -->
+    <p>&copy; 2025 Islington Watches. All rights reserved.</p>
+</footer>
+</body>
+
+</html>

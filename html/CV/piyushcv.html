@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaraj Shrestha - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .cv-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .photo-container {
+            flex-shrink: 0;
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #3498db;
+        }
+
+        .header-content {
+            flex-grow: 1;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .Achievement-item, .education-item {
+            margin-bottom: 20px;
+           
+        }
+        .education-item{
+            font-weight: bold;
+            margin-bottom: 0px;
+            margin-top: 15px;
+        }
+        .education-items{
+            font-weight: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .GPPC, .Volunteer {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #e8f4f8;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            .cv-container {
+                padding: 20px;
+            }
+
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .photo-container {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <header>
+            <div class="photo-container">
+                <img src="../../images/piyush.jpg" alt="Profile Photo" class="profile-photo">
+            </div>
+            <div class="header-content">
+                <h1>Aaraj Shrestha</h1>
+                <div class="contact-info">
+                    <p>📧 aarajshrescybu@email.com | 📱 9841446180</p>
+                    <p>🏠 Tahachal, Kathmandu</p>
+                </div>
+            </div>
+        </header>
+
+        <section class="summary">
+            <h2>About me</h2>
+            <p>Inspired Computing Student with many passions like hardware, software , programming etc.Skilled in various basic programming langauage like Java, HTML,CSS,Javascript. </p>
+        </section>
+
+        <section class="Achievement">
+            <h2>Achievement</h2>
+            <div class="Achievement-item">
+                <div class="Volunteer">Volunteer Work</div>
+              
+                <ul>
+                    <li>Assisted in showcasing IT sectors of our college to various students.</li>
+                    <li>Providing IT support and troubleshooting in various events.</li>
+                    
+                </ul>
+            </div>
+
+            <div class="Achievement">
+                <div class="GPPC">GPPC</div>
+                
+                <ul>
+                    <li>Being awarded GPPC certificate for completing the GPPC course.</li>
+                    <li>Learning various skills like data visualization, Power BI and Microsoft excel.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <ul>
+                    <li>B.Sc(hons) in Computing</li>
+                    
+                </ul>
+
+            </div>
+            <p>Islington College 2024-Present</p>
+
+            <div class="education-item">
+                <ul>
+                    <li>+2 Management</li>
+                    
+                </ul>
+
+            </div>
+            <p>Ace Higher Secondary School</p>
+            <div class="education-item">
+                <ul>
+                    <li>Secondary Education</li>
+                    
+                </ul>
+
+            </div>
+            <p>Holy Vision International School</p>
+             
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <span class="skill">SQL</span>
+                <span class="skill">Data visualization</span>
+                <span class="skill">Microsoft Office</span>
+                <span class="skill">Basics Of Programming</span>
+                <span class="skill">Presentation Skills</span>
+                
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Personal Details</h2>
+            <ul>
+                <li>Date Of Birth - 2006-02-19</li>
+                <li>Gender - Male</li>
+                <li>Nationality - Nepali</li>
+                <li>Hobbies - Basketball, Guitar, Exercising </li>
+                
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
